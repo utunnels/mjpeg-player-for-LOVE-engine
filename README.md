@@ -6,7 +6,8 @@ This is a mjpeg player for LÖVE engine (http://love2d.org/).
 How to use
 ------------
 
-<pre>require "mjpegplayer"
+```lua
+require "mjpegplayer"
 
 function love.load()
   mplayer = VideoPlayer.create("path_to_your_movie_folder")
@@ -19,7 +20,8 @@ end
 
 function love.draw()
   mplayer:draw()
-end</pre>
+end
+```
 
 
 Files:
